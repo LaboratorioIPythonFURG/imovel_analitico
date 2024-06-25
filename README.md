@@ -14,6 +14,7 @@ Este repositório explora a decisão financeira de alugar um imóvel e investir 
 
 ### Recursos Adicionais:
 
+* **Pandas Data Frame:**  [https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html)
 * **SymPy:**  [https://www.sympy.org/en/index.html](https://www.sympy.org/en/index.html)
 * **NumPy:**  [https://numpy.org/](https://numpy.org/)
 * **Matplotlib:**  [https://matplotlib.org/](https://matplotlib.org/)
