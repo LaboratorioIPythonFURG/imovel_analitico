@@ -1,6 +1,6 @@
 ## Python e SymPy na Resolução de Equações Diferenciais para Investimentos Imobiliários
 
-Este repositório explora a decisão financeira de comprar um imóvel financiado versus alugar e investir a diferença, utilizando métodos discretos e analíticos com a biblioteca SymPy.
+Este repositório explora a decisão financeira de alugar um imóvel e investir a diferença entre prestações de possivel empréstimo e valor do aluguel, utilizando métodos discretos e analíticos com as bibliotecas Pandas Data Frame e SymPy.
 
 ### Conteúdo:
 
