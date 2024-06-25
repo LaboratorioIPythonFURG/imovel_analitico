@@ -1,23 +1,41 @@
-# Python e Sympy na Resolução de Equações Diferenciais Aplicadas a Investimentos Imobiliários
+## Python e SymPy na Resolução de Equações Diferenciais para Investimentos Imobiliários
 
-Este código explora a decisão financeira de comprar um imóvel financiado versus alugar e investir a diferença, utilizando tanto métodos discretos quanto analíticos.
+Este repositório explora a decisão financeira de comprar um imóvel financiado versus alugar e investir a diferença, utilizando métodos discretos e analíticos com a biblioteca SymPy.
 
-## Abordagem Discreta
+### Conteúdo:
 
-- Simula o financiamento (SAC) calculando juros, amortização, parcelas e saldo devedor ao longo do tempo.
-- Simula o cenário de aluguel, calculando custos, aportes em investimentos e crescimento do patrimônio.
+* **Comparação métodos:**
+    * `imovel_analitico.ipynb`: Este código explora a decisão financeira de alugar e investir a diferença, utilizando tanto métodos discretos quanto analíticos.
+    * **Explicação:**  Esse script define funções para calcular pagamentos de empréstimo e simular o crescimento do investimento, define variáveis importantes como valor do imóvel, entrada, taxas de juros e duração do investimento, calcula os pagamentos do empréstimo, simulam o aluguel e o crescimento do investimento associado, resolve uma equação diferencial que representa o crescimento contínuo do investimento, gera gráficos para comparar os resultados dos métodos discreto e contínuo e calcula o erro percentual entre os dois métodos.
 
-## Abordagem Analítica (SymPy)
+* **Apresentação slides:**
+    * `bienal_imovel.pdf`: Apresentação de slides sobre os conceitos abordados e códigos.
 
-- Modela matematicamente a evolução do patrimônio no cenário de aluguel e investimento usando equações diferenciais.
-- Resolve a equação diferencial para obter uma solução analítica.
 
-## Comparação e Análise
+### Recursos Adicionais:
 
-- Plota gráficos comparando a evolução do patrimônio em ambos os cenários (discreto e analítico).
-- Calcula o erro percentual entre os resultados, avaliando a precisão do método discreto em relação ao analítico.
+* **SymPy:**  [https://www.sympy.org/en/index.html](https://www.sympy.org/en/index.html)
+* **NumPy:**  [https://numpy.org/](https://numpy.org/)
+* **Matplotlib:**  [https://matplotlib.org/](https://matplotlib.org/)
 
-## Objetivo
+### Referências:
 
-Demonstrar como métodos analíticos podem complementar simulações discretas, fornecendo insights adicionais e validando os resultados.
+* **BASSANEZI**, R. C. **Ensino-Aprendizagem com Modelagem Matemática: Contexto, Aplicações e Perspectivas**. São Paulo: Contexto, 2002. ISBN: 978-857244207-7. 
 
+* **FREITAS**, E. K. **Equações Diferenciais Ordinárias Lineares de Primeira Ordem: aplicações na economia**. 2019. 80 f. TCC (Graduação) - Curso de Matemática Aplicada, Instituto de Matemáticas Estatísticas e Física, Universidade Federal do Rio Grande, Rio Grande, 2019. Acessado em 27/05/2024, https://imef.ufrg.br/images/stories/Monografias/Matematica_aplicada/2019/2019-2ELIandraFreitas.pdf. 
+
+* **OLIVEIRA**, T. C. de. Quais são as vantagens e funcionalidades da biblioteca Pandas data frame? Online. Acessado em 28/03/2024. https://www.voitto.com.br/blog/artigo/dataframe.
+
+* **SCHUCH**, F. N.; TESMANN, M. S. Alugar, economizar e pagar à vista ou financiar um imóvel? Um estudo de caso. Online. Acessado em 27/03/2024. https://www.fschuch.com/blog/2020/04/11/alugar-economizar-e-pagar-a-vista-ou-financiar-um-imovel-um-estudo-de-caso/. 
+
+* **SYMPY**. Online. Acessado em 28/03/2024. https://www.sympy.org/en/index.html. 
+
+* **ZILL**, D. G.; CULLEN, M. R. **Equações diferenciais**. Vol. 1. São Paulo: Pearson, 2001.
+
+### Observações:
+
+* O código é fornecido como um exemplo de aplicação de SymPy em problemas financeiros. 
+* As variáveis e parâmetros utilizados nos exemplos são fictícios e devem ser ajustados para cenários reais.
+* A análise com SymPy visa demonstrar a complementaridade entre métodos analíticos e discretos, fornecendo insights e validando resultados.
+
+Este repositório é um ponto de partida para explorar a utilização de equações diferenciais e a biblioteca SymPy em decisões financeiras relacionadas a investimentos imobiliários. Sinta-se à vontade para contribuir com exemplos adicionais, documentação aprimorada e novos recursos. 
