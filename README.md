@@ -9,7 +9,7 @@ Este repositório explora a decisão financeira de alugar um imóvel e investir 
     * **Explicação:**  Esse script define funções para calcular pagamentos de empréstimo e simular o crescimento do investimento, define variáveis importantes como valor do imóvel, entrada, taxas de juros e duração do investimento, calcula os pagamentos do empréstimo, simulam o aluguel e o crescimento do investimento associado, resolve uma equação diferencial que representa o crescimento contínuo do investimento, gera gráficos para comparar os resultados dos métodos discreto e contínuo e calcula o erro percentual entre os dois métodos.
 
 * **Apresentação slides:**
-    * `bienal_slide_imovel.pdf`: Apresentação de slides sobre os conceitos abordados e códigos.
+    * `bienal_slide_imovel_analitico.pdf`: Apresentação de slides sobre os conceitos abordados e códigos.
 
 
 ### Recursos Adicionais:
